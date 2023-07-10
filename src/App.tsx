@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
+import Globe from './components/RotatingGlobe';
+import { fetchInteractions, Interaction } from './models/InteractionAPI';
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [interactions, setInteractions] = useState<Interaction[]>([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+        const interactions = await fetchInteractions();
+        setInteractions(interactions);
+        };
+
+        fetchData();
+    }, []);
+
+    return (
+        <div className="app">
+            {interactions.length > 0 && <Globe interactions={interactions} />}
+        </div>
+    );
 }
 
 export default App;
