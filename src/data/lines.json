@@ -1,0 +1,71 @@
+{
+    "type": "PullRequest",
+    "pulls": [
+        {
+            "type": "pull",
+            "order": 1,
+            "from": "UAE",
+            "to": "IND",
+            "startLat": "23.214066",
+            "startLng": "53.195262",
+            "endLat": "13.089869",
+            "endLng": "80.245901",
+            "arcAlt": 0.05 
+        },
+        {
+            "type": "pull",
+            "order": 2,
+            "from": "EGY",
+            "to": "FRC",
+            "startLat": "30.040261",
+            "startLng": "31.238839",
+            "endLat": "2.333993",
+            "endLng": "48.858825",
+            "arcAlt": 0.05 
+        },
+        {
+            "type": "pull",
+            "order": 3,
+            "from": "UAE",
+            "to": "EGY",
+            "startLat": "23.214066",
+            "startLng": "53.195262",
+            "endLat": "30.040261",
+            "endLng": "31.238839",
+            "arcAlt": 0.05 
+        },
+        {
+            "type": "pull",
+            "order": 4,
+            "from": "EGY",
+            "to": "IND",
+            "startLat": "30.040261",
+            "startLng": "31.238839",
+            "endLat": "13.089869",
+            "endLng": "80.245901",
+            "arcAlt": 0.05 
+        },
+        {
+            "type": "pull",
+            "order": 5,
+            "from": "UAE",
+            "to": "RUS",
+            "startLat": "23.214066",
+            "startLng": "53.195262",
+            "endLat": "37.389581",
+            "endLng": "55.825506",
+            "arcAlt": 0.05 
+        },
+        {
+            "type": "pull",
+            "order": 6,
+            "from": "IND",
+            "to": "RUS",
+            "startLat": "13.089869",
+            "startLng": "80.245901",
+            "endLat": "37.389581",
+            "endLng": "55.825506",
+            "arcAlt": 0.05 
+        }
+    ]
+}

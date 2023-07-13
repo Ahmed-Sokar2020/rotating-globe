@@ -1,0 +1,50 @@
+{
+    "type": "Map",
+    "maps": [
+        {
+            "id": 1,
+            "text": "IND",
+            "size": 1.0,
+            "country": "India",
+            "city" : "Mumbai",
+            "lat": "13.089869",
+            "lng":"80.245901"
+        },
+        {
+            "id": 2,
+            "text": "UAE",
+            "size": 1.0,
+            "country": "United Arab Emirates",
+            "city" : "Dubai",
+            "lat": "23.214066",
+            "lng":"53.195262"
+        },
+        {
+            "id": 3,
+            "text": "EGY",
+            "size": 1.0,
+            "country": "Egypt",
+            "city" : "Cairo",
+            "lat": "30.040261",
+            "lng":"31.238839"
+        },
+        {
+            "id": 4,
+            "text": "RUS",
+            "size": 1.0,
+            "country": "Russia",
+            "city" : "Moscow",
+            "lat": "37.389581",
+            "lng":"55.825506"
+        },
+        {
+            "id": 5,
+            "text": "FRC",
+            "size": 1.0,
+            "country": "France",
+            "city" : "Paris",
+            "lat": "2.333993",
+            "lng":"48.858825"
+        }
+    ]
+}
